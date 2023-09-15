@@ -2,7 +2,7 @@ class Cats:
     def __init__(self):
         self._cats = ["Garfield", "Tom", "Kitty"]
 
-    # to make this class sequence protocol compliant, we need to implement
+    # to make this class sequence protocol compliant, we need to implement:
 
     def count(self):
         return len(self._cats)
